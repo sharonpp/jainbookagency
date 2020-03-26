@@ -25,8 +25,6 @@ When the user open the jain book website for third time
 Then the user add a book takes a screen shot of AddToCart
 Then the user logout the application and close the browser for third time	
 
-
-
 @TC_04_jainBook
 Scenario: the user select a book and write name in excel
 

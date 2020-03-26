@@ -15,7 +15,7 @@ public class JainBook_Agency_AddToCart_step {
 	@Given("^user launch the chrome browser for first time$")
 	public void user_launch_the_chrome_browser_for_first_time() throws InterruptedException
 {
-//	xpage.AlertHAndling();
+
 	xpage.launch("chrome");
 }
 

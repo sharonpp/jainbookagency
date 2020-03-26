@@ -72,23 +72,7 @@ WebDriver driver;
 				Thread.sleep(4000);
 				}
 			
-					/*public void AlertHAndling() throws InterruptedException
-				{
-						Thread.sleep(4000);
-						Alert a=driver.switchTo().alert();
-						a.dismiss();
-					Thread.sleep(4000);
-					Actions act= new Actions(driver);
-//					act.sendKeys(Keys.ENTER).build().perform();
-					act.sendKeys(Keys.ESCAPE).build().perform();
-					driver.findElement(CloseAlert).click();
-					Thread.sleep(4000);
-					driver.findElement(CloseAlert).click();*/
-			/*	Actions act=new Actions(driver);		
-				WebElement a=driver.findElement(CloseAlert);
-				act.doubleClick().perform();
-//				act.sendKeys(Keys.ESCAPE).build().perform();
-				}*/
+			
 				// log in to website
 	public void LoginDetails(String emails,String pass) throws InterruptedException
 	{
@@ -107,9 +91,9 @@ WebDriver driver;
 		Thread.sleep(3000);
 		driver.findElement(BuyNow).click();
 		Thread.sleep(4000);
-		/*File SrcFile =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		File SrcFile =((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(SrcFile, new File("D:\\selenium\\JainBook\\src\\test\\resources\\ScreenShot\\pic.png"));
-		Thread.sleep(4000);*/
+		Thread.sleep(4000);
 		driver.findElement(CountinueShopping).click();
 		
 	}
